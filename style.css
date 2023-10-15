@@ -174,3 +174,69 @@ font-size: 1rem;
 white-space: nowrap;
 }
 
+@media screen and (max-width: 600px){
+    body {
+        line-height: 2rem;
+        overflow-x: hidden;
+    }
+
+    .paraTwo div p {
+      
+        /* margin-right: 10px; */
+        /* outline: 1px solid red; */
+       font-size: .875rem;
+       width: 85svw;
+       
+    }
+    .paraTwo {
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+        /* outline: 1px solid red; */
+        padding: 0 1rem;
+    }
+
+    .paraTwo div h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+      
+        margin-right: 50px;
+    }
+
+    .paraTwo div p {
+        /* outline: 1px solid red; */
+        margin-right: 60px;
+        
+    }
+
+    .paraTwo img {
+        width: 300px;
+        height: auto;
+    }
+
+    .para {
+        /* outline: 1px solid red; */
+        width: 300px;
+    }
+    
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 0 1rem;
+        margin-top: 6rem;
+        background-color: var(--Very-Dark-Cyan);
+        color: #fff;
+       
+    }
+
+
+
+
+
+}
+
